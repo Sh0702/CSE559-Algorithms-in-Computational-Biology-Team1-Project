@@ -1,20 +1,20 @@
 # CSE559-Algorithms-in-Computational-Biology-Team1-Project
 CSE 559 - Algorithms in Computational Biology Team 1(A6+B)
 
-Team Members:
+# Team Members:
 1. Shreyas Srinivasan - 1229139888
 2. Praveen Raj Mohanraj - 1229519956
 3. Mohankrishna Chandrasekhar - 
 4. Ganeshkumar Govindaraju - 
 5. Pooja Laxmi Shanmuganathan - 
 
-Overview
+# Overview
 This GitHub project presents a comprehensive study on the effectiveness of the TCRBert model for Amino Acid Embedding. The evaluation involved comparing the baseline TCRBert model with various modifications aimed at improving its performance. The primary focus was on four enhancement methods: regularization, reducing dropout, changing the number of layers, and adjusting the learning rate. The project concludes that adjusting the number of layers is the most effective approach, enhancing connections between nodes, particularly beneficial given the ample amount of available data.
 
-Dataset
+# Dataset
 The study utilized a dataset named "TCREpitopePairs.csv," comprising 300,016 data points. Each data point included unique TCR (T-cell receptor), epitope, and binding information. This rich dataset served as the foundation for evaluating the TCRBert model and its variations.
 
-Model Enhancements
+# Model Enhancements
 1. Regularization
 Introduces regularization techniques to mitigate overfitting and improve model generalization.
 
@@ -30,10 +30,10 @@ Explores the effects of adjusting the learning rate on model convergence and acc
 Amino Acid Embedding
 For Amino Acid Embedding, a variant of TCRBert was employed and compared against the original TCRBert. This comparative analysis provides insights into the relative performance of TCRBert concerning other models in the context of Amino Acid Embedding.
 
-Code
+# Code
 The code for this project, including model implementation, enhancements, and comparative analysis, is provided in the repository. Please refer to the project files for detailed information on implementation and execution.
 
-Usage
+# Usage
 Clone the repository:
 bash
 git clone https://github.com/yourusername/tcrbert-enhancement-project.git
@@ -41,12 +41,12 @@ cd tcrbert-enhancement-project
 
 Follow the instructions in the code documentation to replicate the experiments and explore the findings.
 
-Results
+# Results
 The project outcomes provide a comparative study on the effectiveness of TCRBert in Amino Acid Embedding compared to other models. The identified best practices for model enhancement offer valuable insights for optimizing TCRBert's performance in various scenarios.
 
 Feel free to contribute, raise issues, or provide feedback to further enhance this research project.
 
-Citation
+# Citation
 1. catELMo
 @article {catelmobiorxiv,
 	author = {Pengfei Zhang and Seojin Bang and Michael Cai and Heewook Lee},
