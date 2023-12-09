@@ -49,8 +49,44 @@ cd tcrbert-enhancement-project
 
 Follow the instructions in the code documentation to replicate the experiments and explore the findings.
 
+# Performance
+
+Baseline Model:
+1. AUC: 0.6536143979534137
+2. precision_recall_fscore_macro (0.6116898028620932, 0.6098090931880342, 0.6082848407042718, None)
+3. accuracy is 0.6100182565038795
+4. precision1 is 0.6245672925626771
+5. precision0 is 0.5988123131615093
+6. recall1 is 0.5452630614954898
+7. recall0 is 0.6743551248805787
+8. f1macro is 0.6082848407042718
+9. f1micro is 0.6100182565038795
+
+Custom Model:
+1. AUC: 0.6720369844364315
+2. precision_recall_fscore_macro (0.6347539702855138, 0.6323815574010831, 0.6302615384287922, None)
+3. accuracy is 0.6526243724326792
+4. precision1 is 0.6489017837954008
+5. precision0 is 0.6206061567756268
+6. recall1 is 0.5574508906085443
+7. recall0 is 0.7173122241936218
+8. f1macro is 0.5902615384287922
+9. f1micro is 0.6026243724326792
+
 # Results
 The project outcomes provide a comparative study on the effectiveness of TCRBert in Amino Acid Embedding compared to other models. The identified best practices for model enhancement offer valuable insights for optimizing TCRBert's performance in various scenarios.
+
+# Future Work
+
+1. Embeddings Exploration:
+The success of the model heavily relies on the quality of embeddings. While we initially used TCRBert with pretrained weights and fine-tuning, we hypothesize that training the TCRBert model from scratch could yield superior results. This avenue will be explored to unlock the full potential of the model.
+
+2. Activation Layer Modification:
+The activation layer plays a crucial role in shaping the model's behavior. In this work, we propose experimenting with Rectified Linear Unit (ReLU) as an alternative to the existing siLU activation layer. The impact of this modification will be assessed to determine its influence on the model's performance.
+
+3. Layer-Specific Activation Experimentation:
+Recognizing the varying importance of activation functions across different layers, we plan to conduct experiments using both ReLU and siLU activations. By tailoring the activation layers to specific model layers, we aim to identify optimal configurations that enhance the model's expressive capabilities.
+
 
 # Citation
 # Context-Aware Amino Acid Embedding (catELMo)
