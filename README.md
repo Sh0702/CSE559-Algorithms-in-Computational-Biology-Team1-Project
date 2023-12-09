@@ -15,8 +15,8 @@ This GitHub project presents a comprehensive study on the effectiveness of the T
 The study utilized a dataset named "TCREpitopePairs.csv," comprising 300,016 data points. Each data point included unique TCR (T-cell receptor), epitope, and binding information. This rich dataset served as the foundation for evaluating the TCRBert model and its variations.
 
 # Model Enhancements
-1. Regularization
-Introduces regularization techniques to mitigate overfitting and improve model generalization.
+1. Reducing Hidden Layers
+Reducing the number of hidden layers is implemented to mitigate model complexity and prevent overfitting, ensuring improved generalization on diverse datasets.
 
 2. Dropout Reduction
 Examines the impact of reducing dropout rates on model training and performance.
