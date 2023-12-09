@@ -35,8 +35,8 @@ The code for this project, including model implementation, enhancements, and com
 
 # Usage
 Clone the repository:
-bash
-git clone https://github.com/yourusername/tcrbert-enhancement-project.git
+git clone https://github.com/Sh0702/CSE559-Algorithms-in-Computational-Biology-Team1-Project.git 
+
 cd tcrbert-enhancement-project
 
 Follow the instructions in the code documentation to replicate the experiments and explore the findings.
@@ -47,7 +47,11 @@ The project outcomes provide a comparative study on the effectiveness of TCRBert
 Feel free to contribute, raise issues, or provide feedback to further enhance this research project.
 
 # Citation
-1. catELMo
+# Context-Aware Amino Acid Embedding (catELMo)
+
+This section introduces the catELMo model, a context-aware amino acid embedding designed for advancing the analysis of TCR-epitope interactions. The associated article is available on bioRxiv.
+
+```bibtex
 @article {catelmobiorxiv,
 	author = {Pengfei Zhang and Seojin Bang and Michael Cai and Heewook Lee},
 	title = {Context-Aware Amino Acid Embedding Advances Analysis of TCR-Epitope Interactions},
@@ -57,9 +61,12 @@ Feel free to contribute, raise issues, or provide feedback to further enhance th
 	publisher = {Cold Spring Harbor Laboratory},
 	journal = {bioRxiv}
 }
-2. TCRBert
-J. Glanville et al., Identifying specificity groups in the t cell receptor repertoire. Nature 547(7661), 94–98 (2017).
+```
 
-J. Devlin, M.-W. Chang, K. Lee, K. Toutanova, Bert: Pre-training of deep bidirectional transformers for language understanding proceedings of the 2019 conference of the north american chapter of the association for computational linguistics: Human language technologies, volume 1 (long and short papers). Proceedings of the 2019 Conference of the North 4171–4186 (2019).
-3. Fine Tuned TCRBert
-yiminghuang47/tcr-bert-finetuned-tchard
+# TCRBert
+
+This section provides information on the TCRBert model and its significance in identifying specificity groups within the T-cell receptor repertoire. The model is introduced through the following references:
+
+1. Glanville, J., et al. (2017). Identifying specificity groups in the T cell receptor repertoire. Nature, 547(7661), 94–98.
+
+2. Devlin, J., et al. (2019). BERT: Pre-training of deep bidirectional transformers for language understanding. Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers), 4171–4186.
