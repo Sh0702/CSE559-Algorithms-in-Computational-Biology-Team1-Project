@@ -44,8 +44,6 @@ Follow the instructions in the code documentation to replicate the experiments a
 # Results
 The project outcomes provide a comparative study on the effectiveness of TCRBert in Amino Acid Embedding compared to other models. The identified best practices for model enhancement offer valuable insights for optimizing TCRBert's performance in various scenarios.
 
-Feel free to contribute, raise issues, or provide feedback to further enhance this research project.
-
 # Citation
 # Context-Aware Amino Acid Embedding (catELMo)
 
