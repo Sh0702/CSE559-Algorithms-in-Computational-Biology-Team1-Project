@@ -30,6 +30,14 @@ Explores the effects of adjusting the learning rate on model convergence and acc
 Amino Acid Embedding
 For Amino Acid Embedding, a variant of TCRBert was employed and compared against the original TCRBert. This comparative analysis provides insights into the relative performance of TCRBert concerning other models in the context of Amino Acid Embedding.
 
+tcr-bert-finetuned-tchard
+This model is a fine-tuned version of wukevin/tcr-bert on the TChard dataset. It achieves the following results on the evaluation set:
+
+Loss: 0.7212
+Perplexity: 11.32
+
+Model can be found at Part A folder
+
 # Code
 The code for this project, including model implementation, enhancements, and comparative analysis, is provided in the repository. Please refer to the project files for detailed information on implementation and execution.
 
