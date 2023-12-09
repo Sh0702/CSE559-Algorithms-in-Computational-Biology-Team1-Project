@@ -1,12 +1,12 @@
 # CSE559-Algorithms-in-Computational-Biology-Team1-Project
-CSE 559 - Algorithms in Computational Biology Team 1(A6+B)
+Link for models: https://drive.google.com/drive/folders/1zLLbGb9PtOCs2VoD15dQ_eRUHYXWE3nT?usp=sharing
 
 # Team Members:
 1. Shreyas Srinivasan - 1229139888
 2. Praveen Raj Mohanraj - 1229519956
-3. Mohankrishna Chandrasekhar - 
-4. Ganeshkumar Govindaraju - 
-5. Pooja Laxmi Shanmuganathan - 
+3. Mohankrishna Chandrasekhar - 1219474685
+4. Ganeshkumar Govindaraju - 1229782322
+5. Pooja Laxmi Shanmuganathan - 1229598957
 
 # Overview
 This GitHub project presents a comprehensive study on the effectiveness of the TCRBert model for Amino Acid Embedding. The evaluation involved comparing the baseline TCRBert model with various modifications aimed at improving its performance. The primary focus was on four enhancement methods: regularization, reducing dropout, changing the number of layers, and adjusting the learning rate. The project concludes that adjusting the number of layers is the most effective approach, enhancing connections between nodes, particularly beneficial given the ample amount of available data.
