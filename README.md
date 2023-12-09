@@ -15,21 +15,13 @@ This GitHub project presents a comprehensive study on the effectiveness of the T
 The study utilized a dataset named "TCREpitopePairs.csv," comprising 300,016 data points. Each data point included unique TCR (T-cell receptor), epitope, and binding information. This rich dataset served as the foundation for evaluating the TCRBert model and its variations.
 
 # Model Enhancements
-1. Reducing Hidden Layers
-   
-Reducing the number of hidden layers is implemented to mitigate model complexity and prevent overfitting, ensuring improved generalization on diverse datasets.
+1. Reducing Hidden Layers is implemented to mitigate model complexity and prevent overfitting, ensuring improved generalization on diverse datasets.
 
-2. Dropout Reduction
-   
-Examines the impact of reducing dropout rates on model training and performance.
+2. Dropout Reduction examines the impact of reducing dropout rates on model training and performance.
 
-3. Number of Layers Adjustment
-   
-Identifies adjusting the number of layers as the most effective enhancement, enhancing connections between nodes in response to the extensive dataset.
+3. Number of Layers Adjustment identifies adjusting the number of layers as the most effective enhancement, enhancing connections between nodes in response to the extensive dataset.
 
-4. Learning Rate Adjustment
-   
-Explores the effects of adjusting the learning rate on model convergence and accuracy.
+4. Learning Rate Adjustment explores the effects of adjusting the learning rate on model convergence and accuracy.
 
 Amino Acid Embedding
 For Amino Acid Embedding, a variant of TCRBert was employed and compared against the original TCRBert. This comparative analysis provides insights into the relative performance of TCRBert concerning other models in the context of Amino Acid Embedding.
