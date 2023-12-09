@@ -16,15 +16,19 @@ The study utilized a dataset named "TCREpitopePairs.csv," comprising 300,016 dat
 
 # Model Enhancements
 1. Reducing Hidden Layers
+   
 Reducing the number of hidden layers is implemented to mitigate model complexity and prevent overfitting, ensuring improved generalization on diverse datasets.
 
 2. Dropout Reduction
+   
 Examines the impact of reducing dropout rates on model training and performance.
 
 3. Number of Layers Adjustment
+   
 Identifies adjusting the number of layers as the most effective enhancement, enhancing connections between nodes in response to the extensive dataset.
 
 4. Learning Rate Adjustment
+   
 Explores the effects of adjusting the learning rate on model convergence and accuracy.
 
 Amino Acid Embedding
