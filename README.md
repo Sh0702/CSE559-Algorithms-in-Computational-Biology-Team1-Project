@@ -45,7 +45,6 @@ The code for this project, including model implementation, enhancements, and com
 Clone the repository:
 ```bibtex
 git clone https://github.com/Sh0702/CSE559-Algorithms-in-Computational-Biology-Team1-Project.git 
-cd tcrbert-enhancement-project
 ```
 
 Follow the instructions in the code documentation to replicate the experiments and explore the findings.
